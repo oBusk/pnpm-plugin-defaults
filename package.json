@@ -1,7 +1,7 @@
 {
-  "name": "@pnpm/plugin-better-defaults",
-  "version": "0.2.1",
-  "description": "Improved defaults for pnpm",
+  "name": "@obusk/pnpm-plugin-defaults",
+  "version": "0.0.0",
+  "description": "oBusk defaults for pnpm",
   "files": [
     "pnpmfile.cjs",
     "esm_loader.mjs"
@@ -16,14 +16,13 @@
   ],
   "license": "MIT",
   "packageManager": "pnpm@10.14.0",
-  "funding": "https://opencollective.com/pnpm",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pnpm/better-defaults.git"
+    "url": "git+https://github.com/oBusk/pnpm-plugin-defaults.git"
   },
-  "homepage": "https://github.com/pnpm/better-defaults#readme",
+  "homepage": "https://github.com/oBusk/pnpm-plugin-defaults#readme",
   "bugs": {
-    "url": "https://github.com/pnpm/better-defaults/issues"
+    "url": "https://github.com/oBusk/pnpm-plugin-defaults/issues"
   },
   "devDependencies": {
     "@pnpm/plugin-esm-node-path": "^0.1.2",

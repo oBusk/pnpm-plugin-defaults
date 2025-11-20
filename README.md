@@ -1,6 +1,6 @@
-# @pnpm/plugin-better-defaults
+# @obusk/pnpm-plugin-defaults
 
-> Improved defaults for pnpm
+> oBusk defaults for pnpm
 
 ## What it changes
 
@@ -17,10 +17,10 @@ You can extend or override these settings in your own `.pnpmfile.cjs`.
 ## Installation
 
 ```
-pnpm add --config @pnpm/plugin-better-defaults
+pnpm add --config @obusk/pnpm-plugin-defaults
 ```
 
-This will add `@pnpm/plugin-better-defaults` to the [configDependencies](https://pnpm.io/config-dependencies) field in your `pnpm-workspace.yaml`.
+This will add `@obusk/pnpm-plugin-defaults` to the [configDependencies](https://pnpm.io/config-dependencies) field in your `pnpm-workspace.yaml`.
 
 ## License
 
