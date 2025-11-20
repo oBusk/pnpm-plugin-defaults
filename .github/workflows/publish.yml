@@ -1,0 +1,38 @@
+name: Publish Package
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  id-token: write # Required for OIDC
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: publish
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: oBusk/action-pnpm-setup@v1
+
+      - name: Test config
+        run: pnpm run test
+
+      - name: Make sure we have recent npm version
+        run: pnpm install -g npm@latest
+
+      - name: Determine npm dist-tag
+        id: dist-tag
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          if [[ $VERSION == *"-"* ]]; then
+            echo "TAG=next" >> $GITHUB_OUTPUT
+          else
+            echo "TAG=latest" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Publish package
+        run: pnpm publish --tag ${{ steps.dist-tag.outputs.TAG }} --no-git-checks
