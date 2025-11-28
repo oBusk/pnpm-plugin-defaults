@@ -2,9 +2,7 @@ module.exports = {
   hooks: {
     updateConfig(config) {
       Object.assign(config, {
-        enablePrePostScripts: false,
         ignorePatchFailures: false,
-        optimisticRepeatInstall: true,
         resolutionMode: 'lowest-direct',
         verifyDepsBeforeRun: 'install',
       })
