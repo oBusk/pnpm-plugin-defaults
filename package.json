@@ -3,13 +3,12 @@
   "version": "0.0.0",
   "description": "oBusk defaults for pnpm",
   "files": [
-    "pnpmfile.cjs",
-    "esm_loader.mjs"
+    "pnpmfile.cjs"
   ],
   "main": "index.js",
   "scripts": {
     "test": "shx rm -rf test/node_modules && pnpm -C=test --no-lockfile install",
-    "prepublishOnly": "esbuild --bundle src/pnpmfile.cjs --outfile=pnpmfile.cjs --platform=node && shx cp node_modules/@pnpm/plugin-esm-node-path/esm_loader.mjs ."
+    "prepublishOnly": "esbuild --bundle src/pnpmfile.cjs --outfile=pnpmfile.cjs --platform=node"
   },
   "keywords": [
     "pnpm-config"
@@ -25,7 +24,6 @@
     "url": "https://github.com/oBusk/pnpm-plugin-defaults/issues"
   },
   "devDependencies": {
-    "@pnpm/plugin-esm-node-path": "^0.1.2",
     "esbuild": "^0.25.8",
     "shx": "^0.4.0"
   }

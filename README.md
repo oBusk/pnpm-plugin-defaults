@@ -4,7 +4,6 @@
 
 ## What it changes
 
-- Sets [enableGlobalVirtualStore](https://pnpm.io/settings#enableglobalvirtualstore) to `true`.
 - Sets [enablePrePostScripts](https://pnpm.io/cli/run#enableprepostscripts) to `false`.
 - Sets [hoistPattern](https://pnpm.io/settings#hoistpattern) to an empty array, disabling hoisting.
 - Sets [ignorePatchFailures](https://pnpm.io/settings#ignorepatchfailures) to `false`.
