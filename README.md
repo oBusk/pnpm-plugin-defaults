@@ -13,6 +13,7 @@
 - Sets [ignorePatchFailures](https://pnpm.io/settings#ignorepatchfailures) to `false`.
 - Sets [resolutionMode](https://pnpm.io/settings#resolutionmode) to `lowest-direct`.
 - Sets [verifyDepsBeforeRun](https://pnpm.io/settings#verifydepsbeforerun) to `install`.
+- Sets [blockExoticSubdeps](https://pnpm.io/settings#blockexoticsubdeps) to `true`.
 
 You can extend or override these settings in your own `.pnpmfile.cjs`.
 

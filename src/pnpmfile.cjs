@@ -8,6 +8,7 @@ module.exports = {
         ignorePatchFailures: false,
         resolutionMode: 'lowest-direct',
         verifyDepsBeforeRun: 'install',
+        blockExoticSubdeps: true,
       })
       if (config.hoistPattern?.length === 1 && config.hoistPattern[0] === '*') {
         config.hoistPattern = []
