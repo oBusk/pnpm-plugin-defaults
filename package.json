@@ -14,7 +14,7 @@
     "pnpm-config"
   ],
   "license": "MIT",
-  "packageManager": "pnpm@10.23.0",
+  "packageManager": "pnpm@10.26.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oBusk/pnpm-plugin-defaults.git"
@@ -24,7 +24,7 @@
     "url": "https://github.com/oBusk/pnpm-plugin-defaults/issues"
   },
   "devDependencies": {
-    "esbuild": "^0.25.8",
+    "esbuild": "^0.27.1",
     "shx": "^0.4.0"
   }
 }
