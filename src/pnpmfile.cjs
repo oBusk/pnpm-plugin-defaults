@@ -9,6 +9,7 @@ module.exports = {
         resolutionMode: 'lowest-direct',
         verifyDepsBeforeRun: 'install',
         blockExoticSubdeps: true,
+        strictDepBuilds: true,
       })
       if (config.hoistPattern?.length === 1 && config.hoistPattern[0] === '*') {
         config.hoistPattern = []

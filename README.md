@@ -14,6 +14,7 @@
 - Sets [resolutionMode](https://pnpm.io/settings#resolutionmode) to `lowest-direct`.
 - Sets [verifyDepsBeforeRun](https://pnpm.io/settings#verifydepsbeforerun) to `install`.
 - Sets [blockExoticSubdeps](https://pnpm.io/settings#blockexoticsubdeps) to `true`.
+- Sets [strictDepBuilds](https://pnpm.io/settings#strictdepbuilds) to `true`.
 
 You can extend or override these settings in your own `.pnpmfile.cjs`.
 
