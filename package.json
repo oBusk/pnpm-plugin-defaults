@@ -14,7 +14,7 @@
     "pnpm-config"
   ],
   "license": "MIT",
-  "packageManager": "pnpm@10.26.0",
+  "packageManager": "pnpm@10.28.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oBusk/pnpm-plugin-defaults.git"
