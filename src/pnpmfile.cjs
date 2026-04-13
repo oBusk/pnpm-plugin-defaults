@@ -10,6 +10,7 @@ module.exports = {
         verifyDepsBeforeRun: 'install',
         blockExoticSubdeps: true,
         strictDepBuilds: true,
+        dedupePeers: true,
       })
       if (config.hoistPattern?.length === 1 && config.hoistPattern[0] === '*') {
         config.hoistPattern = []
