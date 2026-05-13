@@ -14,7 +14,18 @@
     "pnpm-config"
   ],
   "license": "MIT",
-  "packageManager": "pnpm@11.1.1",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.15.0",
+      "onFail": "download"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.0.X",
+      "onFail": "download"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oBusk/pnpm-plugin-defaults.git"
