@@ -6,6 +6,7 @@ module.exports = {
         minimumReleaseAge: 4320,
         trustPolicy: 'no-downgrade',
         ignorePatchFailures: false,
+        optimisticRepeatInstall: true,
         resolutionMode: 'lowest-direct',
         verifyDepsBeforeRun: 'install',
         blockExoticSubdeps: true,

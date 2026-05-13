@@ -11,6 +11,7 @@
 - Sets [trustPolicy](https://pnpm.io/settings#trustpolicy) to `no-downgrade`
 - Sets [hoistPattern](https://pnpm.io/settings#hoistpattern) to an empty array, disabling hoisting.
 - Sets [ignorePatchFailures](https://pnpm.io/settings#ignorepatchfailures) to `false`.
+- Sets [optimisticRepeatInstall](https://pnpm.io/settings#optimisticrepeatinstall) to `true`.
 - Sets [resolutionMode](https://pnpm.io/settings#resolutionmode) to `lowest-direct`.
 - Sets [verifyDepsBeforeRun](https://pnpm.io/settings#verifydepsbeforerun) to `install`.
 - Sets [blockExoticSubdeps](https://pnpm.io/settings#blockexoticsubdeps) to `true`.
