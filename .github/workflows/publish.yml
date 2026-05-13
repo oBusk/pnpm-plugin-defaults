@@ -34,4 +34,8 @@ jobs:
           fi
 
       - name: Publish package
-        run: pnpm publish --tag ${{ steps.dist-tag.outputs.TAG }} --access public --provenance
+        # --tag determined by the type of git tag (pre-release vs stable)
+        # --access public (only actually required for first deploy but why not)
+        # --provenance is required to make pnpm actually include OIDC token
+        # --no-git-checks since we're working on a checkout tag, and not the branch
+        run: pnpm publish --tag ${{ steps.dist-tag.outputs.TAG }} --access public --provenance --no-git-checks
