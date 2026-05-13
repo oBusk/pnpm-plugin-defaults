@@ -23,9 +23,6 @@ jobs:
       - name: Test config
         run: pnpm run test
 
-      - name: Make sure we have recent npm version
-        run: pnpm install -g npm@latest
-
       - name: Determine npm dist-tag
         id: dist-tag
         run: |
@@ -37,4 +34,4 @@ jobs:
           fi
 
       - name: Publish package
-        run: pnpm publish --tag ${{ steps.dist-tag.outputs.TAG }} --no-git-checks
+        run: pnpm publish --tag ${{ steps.dist-tag.outputs.TAG }} --access public --provenance
