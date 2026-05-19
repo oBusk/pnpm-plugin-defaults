@@ -4,6 +4,7 @@ module.exports = {
       Object.assign(config, {
         ignoreWorkspaceRootCheck: true,
         minimumReleaseAge: 4320,
+        minimumReleaseAgeStrict: true,
         trustPolicy: 'no-downgrade',
         ignorePatchFailures: false,
         optimisticRepeatInstall: true,
