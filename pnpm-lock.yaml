@@ -6,8 +6,8 @@ importers:
   .:
     configDependencies:
       '@obusk/pnpm-plugin-defaults':
-        specifier: 0.5.6
-        version: 0.5.6
+        specifier: 0.6.2
+        version: 0.6.2
     packageManagerDependencies:
       '@pnpm/exe':
         specifier: '11'
@@ -18,8 +18,8 @@ importers:
 
 packages:
 
-  '@obusk/pnpm-plugin-defaults@0.5.6':
-    resolution: {integrity: sha512-FqUQbk0ZMRFPaOBam/l1neCdNHzrt9cWcF4RItyQX86dBu90T8JWywrMUDzjKMgZjwI2g3U75J6X4UdiypLWDA==}
+  '@obusk/pnpm-plugin-defaults@0.6.2':
+    resolution: {integrity: sha512-/W5+6DvMUkM95vHpwRoGMl5nsKCQgwypF9F8cIfkVgJ8plHMAVufAin5shqeESyBn/NAm08ZnOTvGwPQ4YtVKw==}
 
   '@pnpm/exe@11.18.0':
     resolution: {integrity: sha512-9aPgeTanPblPLGE0V+SSTFAEmN1aF0y3OE+iNUO/RW5oXoZfyPS34hSDDwDmVy8yokA/+EuwQZENMDxaaICysA==}
@@ -129,7 +129,7 @@ packages:
 
 snapshots:
 
-  '@obusk/pnpm-plugin-defaults@0.5.6': {}
+  '@obusk/pnpm-plugin-defaults@0.6.2': {}
 
   '@pnpm/exe@11.18.0':
     dependencies:
@@ -212,7 +212,7 @@ settings:
   dedupePeers: true
   excludeLinksFromLockfile: false
 
-pnpmfileChecksum: sha256-L1x0yGg/Em/h7G3yCQckH+y6RLnDxZZujp8/XohlR5w=
+pnpmfileChecksum: sha256-IYsv8vMBqw5ThexgWGW4XBVF4N2mG4iUK1BEljv8cOQ=
 
 importers:
 
