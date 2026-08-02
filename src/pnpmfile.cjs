@@ -14,11 +14,11 @@ module.exports = {
         strictDepBuilds: true,
         dedupePeers: true,
       })
-      if (config.update == null) {
-        config.update = {}
+      if (config.updateConfig == null) {
+        config.updateConfig = {}
       }
-      if (config.update.githubActions !== false) {
-        config.update.githubActions = true
+      if (config.updateConfig.githubActions !== false) {
+        config.updateConfig.githubActions = true
       }
       if (config.hoistPattern?.length === 1 && config.hoistPattern[0] === '*') {
         config.hoistPattern = []
