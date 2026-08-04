@@ -18,6 +18,7 @@
 - Sets [blockExoticSubdeps](https://pnpm.io/settings#blockexoticsubdeps) to `true`.
 - Sets [strictDepBuilds](https://pnpm.io/settings#strictdepbuilds) to `true`.
 - Sets [dedupePeers](https://pnpm.io/settings#dedupepeers) to `true`.
+- Sets [updateConfig.githubActions](https://pnpm.io/settings#updateconfiggithubactions) to `true`.
 
 You can extend or override these settings in your own `.pnpmfile.cjs`.
 
