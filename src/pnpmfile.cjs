@@ -5,6 +5,7 @@ module.exports = {
         ignoreWorkspaceRootCheck: true,
         minimumReleaseAge: 4320,
         minimumReleaseAgeStrict: true,
+        minimumReleaseAgeExcludePrune: true,
         trustPolicy: 'no-downgrade',
         ignorePatchFailures: false,
         optimisticRepeatInstall: true,
