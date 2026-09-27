@@ -14,6 +14,8 @@ module.exports = {
         blockExoticSubdeps: true,
         strictDepBuilds: true,
         dedupePeers: true,
+        autoDedupe: true,
+        saveTypes: true,
       })
       if (config.updateConfig == null) {
         config.updateConfig = {}
