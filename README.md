@@ -21,6 +21,7 @@
 - Sets [dedupePeers](https://pnpm.io/settings#dedupepeers) to `true`.
 - Sets [autoDedupe](https://pnpm.io/settings#autodedupe) to `true`.
 - Sets [saveTypes](https://pnpm.io/settings#savetypes) to `true`.
+- Sets [lockfile.includeResolutionSettings](https://pnpm.io/settings/store#lockfileincluderesolutionsettings) to `true`.
 - Sets [updateConfig.githubActions](https://pnpm.io/settings#updateconfiggithubactions) to `true`.
 
 You can extend or override these settings in your own `.pnpmfile.cjs`.

@@ -17,6 +17,15 @@ module.exports = {
         autoDedupe: true,
         saveTypes: true,
       })
+      if (config.lockfile == null || config.lockfile === true) {
+        config.lockfile = {}
+      }
+      if (
+        typeof config.lockfile === 'object' &&
+        config.lockfile.includeResolutionSettings !== false
+      ) {
+        config.lockfile.includeResolutionSettings = true
+      }
       if (config.updateConfig == null) {
         config.updateConfig = {}
       }
