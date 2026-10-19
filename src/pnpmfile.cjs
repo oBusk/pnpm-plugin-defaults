@@ -21,11 +21,8 @@ module.exports = {
       ) {
         config.lockfile.includeResolutionSettings = true
       }
-      if (config.updateConfig == null) {
-        config.updateConfig = {}
-      }
-      if (config.updateConfig.githubActions !== false) {
-        config.updateConfig.githubActions = true
+      if (config.update?.githubActions !== false) {
+        config.update = { ...config.update, githubActions: true }
       }
       if (config.hoistPattern?.length === 1 && config.hoistPattern[0] === '*') {
         config.hoistPattern = []
