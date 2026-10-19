@@ -17,6 +17,7 @@
 - Sets [hoistPattern](https://pnpm.io/settings#hoistpattern) to an empty array, disabling hoisting.
 - Sets [resolutionMode](https://pnpm.io/settings#resolutionmode) to `lowest-direct`.
 - Sets [addMissingPeerTypes](https://pnpm.io/settings/peer-dependencies#addmissingpeertypes) to `true`.
+- Sets [shellEmulator](https://pnpm.io/settings/other#shellemulator) to `true`.
 - Sets [dedupePeers](https://pnpm.io/settings#dedupepeers) to `true`.
 - Sets [autoDedupe](https://pnpm.io/settings#autodedupe) to `true`.
 - Sets [saveTypes](https://pnpm.io/settings#savetypes) to `true`.

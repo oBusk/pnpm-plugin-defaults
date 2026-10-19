@@ -13,6 +13,7 @@ module.exports = {
         resolutionMode: 'lowest-direct',
         dedupePeers: true,
         addMissingPeerTypes: true,
+        shellEmulator: true,
         autoDedupe: true,
         saveTypes: true,
       })
