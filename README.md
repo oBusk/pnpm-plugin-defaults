@@ -11,6 +11,7 @@
 - Sets [minimumReleaseAgeStrict](https://pnpm.io/settings#minimumreleaseagestrict) to `true`.
 - Sets [minimumReleaseAgeExcludePrune](https://pnpm.io/settings#minimumreleaseageexcludeprune) to `true`.
 - Sets [trustPolicy](https://pnpm.io/settings#trustpolicy) to `no-downgrade`
+- Sets [trustPolicyExcludePrune](https://pnpm.io/settings/dependency-resolution#trustpolicyexcludeprune) to `true`.
 - Sets [hoistPattern](https://pnpm.io/settings#hoistpattern) to an empty array, disabling hoisting.
 - Sets [resolutionMode](https://pnpm.io/settings#resolutionmode) to `lowest-direct`.
 - Sets [dedupePeers](https://pnpm.io/settings#dedupepeers) to `true`.

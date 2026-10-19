@@ -7,6 +7,7 @@ module.exports = {
         minimumReleaseAgeStrict: true,
         minimumReleaseAgeExcludePrune: true,
         trustPolicy: 'no-downgrade',
+        trustPolicyExcludePrune: true,
         resolutionMode: 'lowest-direct',
         dedupePeers: true,
         autoDedupe: true,
