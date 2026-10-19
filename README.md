@@ -10,6 +10,7 @@
 - Sets [minimumReleaseAge](https://pnpm.io/settings#minimumreleaseage) to `4320` (72 hours)
 - Sets [minimumReleaseAgeStrict](https://pnpm.io/settings#minimumreleaseagestrict) to `true`.
 - Sets [minimumReleaseAgeExcludePrune](https://pnpm.io/settings#minimumreleaseageexcludeprune) to `true`.
+- Sets [minimumReleaseAgeIgnoreMissingTime](https://pnpm.io/settings/dependency-resolution#minimumreleaseageignoremissingtime) to `false`.
 - Sets [trustPolicy](https://pnpm.io/settings#trustpolicy) to `no-downgrade`
 - Sets [trustPolicyExcludePrune](https://pnpm.io/settings/dependency-resolution#trustpolicyexcludeprune) to `true`.
 - Sets [catalogPrune](https://pnpm.io/settings/other#catalogprune) to `true`.
