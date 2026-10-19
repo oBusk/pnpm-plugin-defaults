@@ -6,21 +6,21 @@
 
 ## What it changes
 
-- Sets ignoreWorkspaceRootCheck to `true`
-- Sets [minimumReleaseAge](https://pnpm.io/settings#minimumreleaseage) to `4320` (72 hours)
-- Sets [minimumReleaseAgeStrict](https://pnpm.io/settings#minimumreleaseagestrict) to `true`.
-- Sets [minimumReleaseAgeExcludePrune](https://pnpm.io/settings#minimumreleaseageexcludeprune) to `true`.
+- Sets [ignoreWorkspaceRootCheck](https://pnpm.io/settings/cli#ignoreworkspacerootcheck) to `true`
+- Sets [minimumReleaseAge](https://pnpm.io/settings/dependency-resolution#minimumreleaseage) to `4320` (72 hours)
+- Sets [minimumReleaseAgeStrict](https://pnpm.io/settings/dependency-resolution#minimumreleaseagestrict) to `true`.
+- Sets [minimumReleaseAgeExcludePrune](https://pnpm.io/settings/dependency-resolution#minimumreleaseageexcludeprune) to `true`.
 - Sets [minimumReleaseAgeIgnoreMissingTime](https://pnpm.io/settings/dependency-resolution#minimumreleaseageignoremissingtime) to `false`.
-- Sets [trustPolicy](https://pnpm.io/settings#trustpolicy) to `no-downgrade`
+- Sets [trustPolicy](https://pnpm.io/settings/dependency-resolution#trustpolicy) to `no-downgrade`
 - Sets [trustPolicyExcludePrune](https://pnpm.io/settings/dependency-resolution#trustpolicyexcludeprune) to `true`.
 - Sets [catalogPrune](https://pnpm.io/settings/other#catalogprune) to `true`.
-- Sets [hoistPattern](https://pnpm.io/settings#hoistpattern) to an empty array, disabling hoisting.
-- Sets [resolutionMode](https://pnpm.io/settings#resolutionmode) to `lowest-direct`.
+- Sets [hoistPattern](https://pnpm.io/settings/node-modules#hoistpattern) to an empty array, disabling hoisting.
+- Sets [resolutionMode](https://pnpm.io/settings/other#resolutionmode) to `lowest-direct`.
 - Sets [addMissingPeerTypes](https://pnpm.io/settings/peer-dependencies#addmissingpeertypes) to `true`.
 - Sets [shellEmulator](https://pnpm.io/settings/other#shellemulator) to `true`.
-- Sets [dedupePeers](https://pnpm.io/settings#dedupepeers) to `true`.
-- Sets [autoDedupe](https://pnpm.io/settings#autodedupe) to `true`.
-- Sets [saveTypes](https://pnpm.io/settings#savetypes) to `true`.
+- Sets [dedupePeers](https://pnpm.io/settings/peer-dependencies#dedupepeers) to `true`.
+- Sets [autoDedupe](https://pnpm.io/settings/dependency-resolution#autodedupe) to `true`.
+- Sets [saveTypes](https://pnpm.io/settings/other#savetypes) to `true`.
 - Sets [lockfile.includeResolutionSettings](https://pnpm.io/settings/store#lockfileincluderesolutionsettings) to `true`.
 - Sets [update.githubActions](https://pnpm.io/settings/dependency-resolution#updategithubactions) to `true`.
 
