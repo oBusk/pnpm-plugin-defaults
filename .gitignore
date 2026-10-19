@@ -1,2 +1,3 @@
 pnpmfile.cjs
 node_modules/
+test/pnpm-lock.yaml

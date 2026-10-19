@@ -7,7 +7,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "shx rm -rf test/node_modules && pnpm -C=test --no-lockfile install",
+    "test": "shx rm -rf test/node_modules test/pnpm-lock.yaml && pnpm -C=test --no-lockfile install && pnpm -C=test install && node test/check-lockfile.cjs",
     "prepublishOnly": "esbuild --bundle src/pnpmfile.cjs --outfile=pnpmfile.cjs --platform=node"
   },
   "keywords": [
