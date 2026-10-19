@@ -14,6 +14,9 @@
     "pnpm-config"
   ],
   "license": "MIT",
+  "engines": {
+    "pnpm": ">=12.14.0"
+  },
   "devEngines": {
     "runtime": {
       "name": "node",
