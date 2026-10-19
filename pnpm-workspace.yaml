@@ -6,3 +6,6 @@ allowBuilds:
 
 trustPolicyExclude:
   - semver@5.7.2
+
+minimumReleaseAgeExclude:
+  - '@obusk/pnpm-plugin-defaults'
