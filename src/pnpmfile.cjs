@@ -8,6 +8,7 @@ module.exports = {
         minimumReleaseAgeExcludePrune: true,
         trustPolicy: 'no-downgrade',
         trustPolicyExcludePrune: true,
+        catalogPrune: true,
         resolutionMode: 'lowest-direct',
         dedupePeers: true,
         autoDedupe: true,
