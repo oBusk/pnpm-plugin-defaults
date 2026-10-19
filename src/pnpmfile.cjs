@@ -12,6 +12,7 @@ module.exports = {
         catalogPrune: true,
         resolutionMode: 'lowest-direct',
         dedupePeers: true,
+        addMissingPeerTypes: true,
         autoDedupe: true,
         saveTypes: true,
       })
