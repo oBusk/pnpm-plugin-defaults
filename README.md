@@ -9,6 +9,7 @@
 - Sets [ignoreWorkspaceRootCheck](https://pnpm.io/settings/cli#ignoreworkspacerootcheck) to `true`
 - Sets [minimumReleaseAge](https://pnpm.io/settings/dependency-resolution#minimumreleaseage) to `4320` (72 hours)
 - Sets [minimumReleaseAgeStrict](https://pnpm.io/settings/dependency-resolution#minimumreleaseagestrict) to `true`.
+- Sets [minimumReleaseAgeExcludePrune](https://pnpm.io/settings/dependency-resolution#minimumreleaseageexcludeprune) to `true`.
 - Sets [minimumReleaseAgeIgnoreMissingTime](https://pnpm.io/settings/dependency-resolution#minimumreleaseageignoremissingtime) to `false`.
 - Sets [trustPolicy](https://pnpm.io/settings/dependency-resolution#trustpolicy) to `no-downgrade`
 - Sets [trustPolicyExcludePrune](https://pnpm.io/settings/dependency-resolution#trustpolicyexcludeprune) to `true`.
