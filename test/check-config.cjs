@@ -24,6 +24,7 @@ const EXPECTED = {
   ignoreWorkspaceRootCheck: true,
   minimumReleaseAge: 4320,
   minimumReleaseAgeStrict: true,
+  minimumReleaseAgeExcludePrune: true,
   minimumReleaseAgeIgnoreMissingTime: false,
   trustPolicy: 'no-downgrade',
   trustPolicyExcludePrune: true,
