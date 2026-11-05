@@ -1,5 +1,5 @@
 configDependencies:
-  '@obusk/pnpm-plugin-defaults': ^12.10.0
+  '@obusk/pnpm-plugin-defaults': ^12.15.0
 
 allowBuilds:
   esbuild: true
