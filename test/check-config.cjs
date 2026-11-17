@@ -31,6 +31,7 @@ const EXPECTED = {
   catalogPrune: true,
   resolutionMode: 'lowest-direct',
   dedupePeers: true,
+  projectScopedOptionalPeers: true,
   addMissingPeerTypes: true,
   shellEmulator: true,
   autoDedupe: true,

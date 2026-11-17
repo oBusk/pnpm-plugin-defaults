@@ -19,6 +19,7 @@
 - Sets [addMissingPeerTypes](https://pnpm.io/settings/peer-dependencies#addmissingpeertypes) to `true`.
 - Sets [shellEmulator](https://pnpm.io/settings/other#shellemulator) to `true`.
 - Sets [dedupePeers](https://pnpm.io/settings/peer-dependencies#dedupepeers) to `true`.
+- Sets [projectScopedOptionalPeers](https://pnpm.io/settings/peer-dependencies#projectscopedoptionalpeers) to `true`.
 - Sets [autoDedupe](https://pnpm.io/settings/dependency-resolution#autodedupe) to `true`.
 - Sets [saveTypes](https://pnpm.io/settings/other#savetypes) to `true`.
 - Sets [lockfile.includeResolutionSettings](https://pnpm.io/settings/store#lockfileincluderesolutionsettings) to `true`.
